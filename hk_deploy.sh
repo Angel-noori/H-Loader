@@ -12,8 +12,8 @@ if [ -d ".git" ]; then
 fi
 
 git init -q
-git config --global user.email drxxstrange@gmail.com
-git config --global user.name SilentDemonSD
+git config --global user.email fariangel918@gmail.com
+git config --global user.name Angel-noori
 git remote add origin $repo_url
 git fetch origin -q
 git reset --hard origin/$repo_branch -q
@@ -27,8 +27,8 @@ if [ -z "$start_cmd" ]; then
 fi
 
 echo "
-█░█ █▄▀ ▄▄ █░░ █▀█ ▄▀█ █▀▄ █▀▀ █▀█
-█▀█ █░█ ░░ █▄▄ █▄█ █▀█ █▄▀ ██▄ █▀▄
+█░░ █▀█ ▄▀█ █▀▄ █▀▀ █▀█
+█▄▄ █▄█ █▀█ █▄▀ ██▄ █▀▄
                                  v1.0.0
-Repo : https://github.com/SilentDemonSD/HK-Loader By SilentDemonSD"
+Repo : https://github.com/Angel-noori/HK-Loader By Angel-noori"
 eval "$start_cmd"
